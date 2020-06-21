@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>portfolio</title>
+<link href="portfolioCSSdemo3.css" rel="stylesheet" type="text/css">
+<link href="headerFooter.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Quicksand|Roboto+Slab:700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+<link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&display=swap" rel="stylesheet">
+<!-- 
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Roboto Slab', serif;
+
+    font-family: 'Quicksand', sans-serif;
+
+-->
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>
+    var __adobewebfontsappname__="dreamweaver"</script>
+<script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("navbar").style.padding = "10px 10px";
+      document.getElementById("NAME").style.fontSize = "30px";
+  } else {
+    document.getElementById("navbar").style.padding = "50px 10px";
+      document.getElementById("NAME").style.fontSize = "35px";
+  }
+}
+</script>
+</head>
+
+<body>
+	<div id = "wrapper">
+		<div id="navbar">
+			<div class="slogan">Some things never last forever.&nbsp;
+			</div>
+			<div id="NAME">Yiwei Wu</div>
+			<div class="nav">
+			<a href = "index.html">About</a>
+			<a href = "#">Project</a>
+			<a href = "#" style="color:black">Course</a>
+			</div>
+		</div>
+		
+<div id ="contents">
+<div class="container">
+  <img src="image/d1.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
+	  </div>
+	  
+		<div id="footer">&copy; W. Yiwei 2020</div>
+		</div>
+
+</body>
+</html>
